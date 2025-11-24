@@ -7,8 +7,8 @@ import cancel_ticket
 
 def main():
 
-    trains_db=railway_data.initialize_trains()
-    bookings_db=railway_data.initialize_bookings()
+    trains_db=railway_data.train_info()
+    bookings_db=railway_data.empty_dict_for_bookings()
     
     while True:
         print("\nRAILWAY RESERVATION SYSTEM")
