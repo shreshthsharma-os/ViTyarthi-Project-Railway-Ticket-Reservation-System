@@ -11,7 +11,5 @@ def train_info():
             "classes": {"CC": {"seats": 45, "price": 1500},"EC": {"seats": 25, "price": 2800}}}}
 
 def empty_dict_for_bookings():
-    """
-    An empty dictionary to store booking details for passengers
-    """
+    #An empty dictionary to store booking details for passengers
     return {}
